@@ -1073,6 +1073,7 @@
     <Content Include="img\triangle.html" />
     <Content Include="img\triangle2.html" />
     <Content Include="index.aspx" />
+    <Content Include="index.html" />
     <Content Include="js\ajax.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\custom-index.js" />
@@ -1085,6 +1086,7 @@
     <Content Include="js\scrolltopcontrol.js" />
     <Content Include="js\twitter\tweetie.js" />
     <Content Include="js\wow.min.js" />
+    <Content Include="test.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -1219,6 +1221,13 @@
     </Compile>
     <Compile Include="Models\Services.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Admin\css\colors\" />

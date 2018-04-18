@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+        //
+
+        $(document).ready(function () {
+            $.ajax({
+                url: "http://betatest.kncc.com/webservice/api/Avenues/GetNowShowing_Avenues",
+                contentType: "application/json",
+                type: 'POST',
+                data: "",
+                dataType: "json",
+                success: function (r) {
+                    console.log(r);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

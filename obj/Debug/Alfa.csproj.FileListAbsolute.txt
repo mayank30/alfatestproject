@@ -13,6 +13,5 @@ D:\Projects\ALPHA\Alfa\Alfa\obj\Debug\Alfa.pdb
 D:\Projects\ALPHA\Alfa\Alfa\obj\Debug\Alfa.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\kar\Alfa\Alfa\bin\Alfa.dll
 C:\Users\user\Desktop\kar\Alfa\Alfa\bin\Alfa.pdb
-C:\Users\user\Desktop\kar\Alfa\Alfa\obj\Debug\Alfa.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\kar\Alfa\Alfa\obj\Debug\Alfa.dll
 C:\Users\user\Desktop\kar\Alfa\Alfa\obj\Debug\Alfa.pdb
