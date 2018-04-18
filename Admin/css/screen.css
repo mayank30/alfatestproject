@@ -1,0 +1,96 @@
+
+			
+    /* image replacement */
+        .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+    /* // image replacement */
+			
+	#container{	
+		margin:0 auto;
+		position:relative;
+		text-align:left;
+		width:500px;
+		background:#EEEEEE;		
+		}	
+	#headerr{
+		height:80px;
+		line-height:80px;
+		background:#5DC9E1;
+		color:#fff;
+		}				
+	#content{
+		position:relative;
+		overflow:hidden; 
+		}			
+
+/* Easy Slider */
+#slider { display: none;
+	border-radius:13px;
+	overflow:hidden;
+}
+
+
+#slider2 img{
+		overflow:hidden;
+		border-radius:13px;
+		}
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		overflow:hidden;
+		}
+		
+	#slider2{margin-top:1em;}
+	#slider li, #slider2 li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:500px;
+		height:200px;
+		overflow:hidden;
+		margin:auto;
+		}	
+	#prevBtn,#slider1prev{ 
+		display:block;
+		width:44px;
+		height:77px;
+		position:absolute;
+		left:10px;
+		top:75px;
+		z-index:1000;
+		}	
+	#nextBtn, #slider1next{
+		display:block;
+		width:44px;
+		height:77px;
+		position:absolute;
+		
+		right:5px;
+		top:75px;
+		}														
+	#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:relative;
+		width:50px;
+/*		opacity:.6;*/
+		height:75px;
+		background:url(../images/lft_arw.png) no-repeat 0 0;	
+		}	
+	#nextBtn a, #slider1next a{ 
+		background:url(../images/rgt_arw.png) no-repeat 0 0;	
+		}	
+		
+	/* numeric controls */	
+
+	
+/* // Easy Slider */

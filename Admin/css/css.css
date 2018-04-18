@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(http://themes.googleusercontent.com/static/fonts/quattrocentosans/v5/efd6FGWWGX5Z3ztwLBrG9b2aU247V0zTzydO4RoO9Ok.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/EInbV5DfGHOiMmvb1Xr-hnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Bowlby One SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url(http://themes.googleusercontent.com/static/fonts/bowlbyonesc/v5/8ZkeXftTuzKBtmxOYXoReXSZ6Kd_eOJbDsY1hLBynIs.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+.hotline {
+	clear: right;
+	float: right;
+	margin: 15px 0 0 259px;
+	width: auto;
+}
+.test {
+	color: #0298D5;
+}
+.txt_white {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
